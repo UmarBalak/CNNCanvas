@@ -50,7 +50,7 @@
 ```plaintext  
 CNNCanvas/  
 ├── layers/              # Core layer definitions  
-├── utils/               # Utility functions for analysis  
+├── utils.py             # Utility functions for analysis  
 ├── app.py               # Main Streamlit app  
 ├── requirements.txt     # Dependencies  
 └── README.md            # Project documentation  
