@@ -4,7 +4,7 @@ import math
 from typing import List, Dict, Tuple
 import copy
 
-from utils import *
+from utils import Calculate, ACTIVATION_FUNCTIONS
 
 st.set_page_config(
     page_title="CNNCanvas",
