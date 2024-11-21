@@ -29,3 +29,36 @@ class Calculate:
     def calculate_model_size(total_params: int) -> float:
         """Calculate model size in MB based on total parameters."""
         return (total_params * 4) / pow(1024, 2)
+
+# Define activation functions and their parameters
+ACTIVATION_FUNCTIONS = {
+    "ReLU": {"params": {}},
+    "LeakyReLU": {
+        "params": {
+            "negative_slope": {
+                "type": "float",
+                "min": 0.0,
+                "max": 0.5,
+                "default": 0.01,
+                "step": 0.01
+            }
+        }
+    },
+    "PReLU": {"params": {}},
+    "ELU": {
+        "params": {
+            "alpha": {
+                "type": "float",
+                "min": 0.1,
+                "max": 2.0,
+                "default": 1.0,
+                "step": 0.1
+            }
+        }
+    },
+    "SELU": {"params": {}},
+    "GELU": {"params": {}},
+    "Sigmoid": {"params": {}},
+    "Tanh": {"params": {}},
+    "None": {"params": {}}
+}

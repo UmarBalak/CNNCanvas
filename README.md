@@ -2,6 +2,8 @@
 
 **CNNCanvas** is an intuitive tool for building, analyzing, and experimenting with Convolutional Neural Networks (CNNs). It helps users explore how changes in layer parameters affect the network's output shapes and model size. Designed with modularity and interactivity in mind, CNNCanvas is ideal for learning and experimenting with CNN architectures.  
 
+[Live Demo](https://cnncanvas.streamlit.app/)
+
 ## 🌟 Current Features  
 
 - **Layer-by-Layer Model Creation**:  
